@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API CEP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div class="container">
+        <h1>Consulte  CEP aqui👇:</h1>
+        <form>
+            <div class="form-group">
+               <!--<div class="form-group error">--> 
+                <div class="form-group ">
+                    <label for ="cep">CEP</label>
+                    <input type="text" class="form-control" maxlength="9"  id="cep" placeholder="Digite seu Cep">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <id class="fas fa-check-circle"></i>
+                    <small>Mensagem de erro</small>
+                   
+                </div>
+            
+            <div class="form-group ">
+                <label for ="logradouro">LOGRADOURO</label>
+                <input type="text" class="form-control" id="logradouro">
+                
+            </div>
+
+            <div class="form-group">
+                <label for ="bairro">BAIRRO</label>
+                <input type="text" class="form-control" id="bairro">
+                
+            </div>
+
+            <div class="form-group">
+                <label for ="localidade">LOCALIDADE</label>
+                <input type="text" class="form-control" id="localidade">
+                
+            </div>
+
+            <div class="form-group">
+                <label for ="ddd">DDD</label>
+                <input type="text" class="form-control" id="ddd">
+                
+            </div>
+
+            <div class="form-group">
+                <label for ="uf">UF</label>
+                <input type="text" class="form-control" id="uf">
+                
+            </div>
+
+            <div class="form-group">
+                <label for ="ibge">IBGE</label>
+                <input type="text" class="form-control" id="ibge">
+                
+            </div>
+
+            <button type="button" onclick="addNewCep();addNewLogradouro()">👉Adicionar</button>
+
+            <ul id="listCep">
+
+            </ul>
+
+
+
+
+        </form>
+        </div>
+
+        <script
+      
+    ></script>
+
+        <script src="main.js"></script>
+</body>
+</html>
